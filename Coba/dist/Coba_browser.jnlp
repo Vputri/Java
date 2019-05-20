@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Coba_browser.jnlp">
+  <information>
+    <title>Coba</title>
+    <vendor>Vika</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Coba.jar" size="3799" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="coba.Coba"  name="Coba" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
